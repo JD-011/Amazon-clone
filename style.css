@@ -17,9 +17,17 @@
 
 .logo{
     background-image: url("amazon_logo.jpg");
-    background-size: 110%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 50px;
     width: 100%;
 
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
 }
